@@ -8,4 +8,4 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
